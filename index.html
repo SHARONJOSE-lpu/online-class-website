@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Class Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">ClassHub</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a class="login-btn" href="#">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to ClassHub</h2>
+            <p>Join, learn, and grow with interactive online classes.</p>
+            <a href="#features" class="cta-btn">Explore Features</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>Live Classes</h3>
+                    <p>Engage in real-time video sessions with your teachers.</p>
+                </div>
+                <div class="feature">
+                    <h3>Course Materials</h3>
+                    <p>Access PDFs, videos, and assignments all in one place.</p>
+                </div>
+                <div class="feature">
+                    <h3>Attendance Tracking</h3>
+                    <p>Automated attendance records for every class session.</p>
+                </div>
+                <div class="feature">
+                    <h3>Interactive Tools</h3>
+                    <p>Participate in polls, Q&As, and group discussions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <h2>Upcoming Classes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Class Name</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Teacher</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>01/02/2025</td>
+                        <td>10:00 AM</td>
+                        <td>Mr. Smith</td>
+                    </tr>
+                    <tr>
+                        <td>Science</td>
+                        <td>02/02/2025</td>
+                        <td>12:00 PM</td>
+                        <td>Ms. Johnson</td>
+                    </tr>
+                    <tr>
+                        <td>History</td>
+                        <td>03/02/2025</td>
+                        <td>02:00 PM</td>
+                        <td>Mr. Brown</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 ClassHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+
+
+</body>
+</html>
